@@ -12,6 +12,7 @@ This folder contains the Red Team contributor's independently authored course no
 - [Simulated Wi-Fi network and troubleshooting](03-Simulated-WiFi/README.md)
 - [Wireless network security — theory](08-Wireless-Network-Security/README.md)
 - [Network Hacking — Post-Connection Attacks](09-Post-Connection-Attacks/README.md)
+- [Network Hacking — Information Gathering: Windows VM lab setup (planned)](10-Post-Connection-Information-Gathering/README.md)
 
 ## How the Red Team labs are documented
 
