@@ -1,12 +1,13 @@
-# Contributing to ACEOS Security Labs
+# Contributing to Cybersecurity Training Portfolio
 
-This is an educational repository. Contributions must be original, attributable and safe to publish.
+This is a collaborative educational repository. Keep contributions original, attributable and safe to publish.
 
-- Work only in owned/isolated labs, public challenges within their terms, or environments where explicit written permission covers the planned activity.
-- Never commit real passwords, private keys, tokens, identifiable client traffic, sensitive IP addresses, credentials, private screenshots or full virtual machine disks.
-- Do not copy paid Udemy lessons, slides or proprietary instructor resources into the repository.
-- Use a separate folder per practical. Follow [the lab template](docs/LAB-TEMPLATE.md).
-- Record exact commands **and what each command does**; also record failures and expected versus observed results.
-- For joint purple-team work, link a red-team exercise with blue-team detection/mitigation evidence. Attribute contributions to their authors.
-- Proposed blue-team collaborator participation is **pending confirmation**. Don't add another person's name or photograph without permission.
-- Prefer pull requests and peer review for changes. Never run unreviewed code on production systems.
+- **Red Team:** The Red Team contributor maintains their own course notes and practicals inside `Red-Team/`.
+- **Blue Team:** **Caitz** leads and maintains her independent defensive-security study and exercises inside `Blue-Team/`.
+- **Purple Team:** Joint, agreed projects belong inside `Purple-Team/` and identify each contributor's part in testing, investigation, remediation and retesting.
+- Use pull requests and review for shared changes. Folder ownership is a working agreement, not an enforced GitHub access rule.
+- Work only in isolated, owned labs, authorised training targets or systems for which explicit permission covers the planned activity.
+- Never commit passwords, private keys, tokens, personally identifying traffic, device identifiers, unredacted screenshots or full VM disks.
+- Do not redistribute paid course lessons, slides or proprietary training resources.
+- Follow [the lab template](docs/LAB-TEMPLATE.md) and label theory, planned work and completed experiments accurately.
+- Record relevant commands and explain them, including failures and observed results.
