@@ -1,6 +1,6 @@
 # Network Hacking — Post-Connection Attacks: Information Gathering
 
-**Contributor:** AceOS | **Track:** Red Team | **Status:** Planning/setup guide — installation and scanning not yet verified
+**Contributor:** AceOS | **Track:** Red Team | **Status:** Environment verification completed; Windows 11 Enterprise evaluation ISO download in progress. Guest installation and scanning not yet performed
 
 ## Objective
 Prepare a disposable Windows virtual machine as an expressly authorised target for future Nmap/Zenmap network discovery from Kali Linux. No device scanning or attack is claimed here.
@@ -43,9 +43,21 @@ Launch with `virtualbox`. Download an authentic Windows 11 ISO through Microsoft
 
 After Windows setup, take a snapshot called `Windows-Clean-Baseline`. Before any scan, confirm the Kali host and the Windows guest have addresses on the intended host-only subnet and that the target is expressly in scope. Windows firewall and network profile may affect ping and scan output; record them rather than weakening protections without reason.
 
+## Progress log — 2026-11-23
+
+**Evidence reviewed:** A screenshot from the Kali Linux desktop shows:
+- `VBoxManage --version` was run in the host terminal and returned a VirtualBox **7.2.20 Debian build** version string (the remaining build suffix is partially obscured by the browser).
+- `sudo apt update` was run; terminal output shows repository package-list activity. This does **not** establish that any installation or upgrade was completed.
+- Firefox is open on Microsoft's official **Windows 11 Enterprise Evaluation Center** download page with **ISO — Enterprise download, 64-bit edition** selected (not LTSC).
+- Firefox's downloads panel shows that the ISO download is **in progress** (approximately 707 MB of 7.7 GB at screenshot time). The image does not prove that the download finished or that its checksum was validated.
+- Windows 11 has **not** been installed in VirtualBox, and the lab networking, snapshot and scans remain pending.
+
+**Evidence handling:** The original screenshot was reviewed in the course conversation but was **not committed** to GitHub. Any later public screenshot must be reviewed and redacted first. The screenshot is evidence only of the steps visibly completed, not a successful VM installation.
+
 ## Practical status
-- [ ] VirtualBox version checked
-- [ ] Official Windows ISO obtained
+- [x] VirtualBox version checked (7.2.20 Debian build, suffix not fully visible)
+- [x] Official Windows 11 Enterprise Evaluation ISO download started
+- [ ] Official Windows ISO download completed and integrity verified
 - [ ] Windows VM created and installed
 - [ ] Host-only lab network configured
 - [ ] Windows baseline snapshot created
