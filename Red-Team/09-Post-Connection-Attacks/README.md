@@ -1,7 +1,15 @@
-# Post-Connection Attacks — Lab Progress
+# Network Hacking — Post-Connection Attacks
+
+## Introduction to Post-Connection Attacks
+
+This introductory lesson marks the shift from securing wireless access to examining risks **after a device has already connected to a network**. The course introduces network mapping and man-in-the-middle concepts, including how trust between connected devices can be abused. At this stage, these subjects are **theory and course orientation**, not completed attacks. The associated practical record below documents only the previously performed gateway identification and connectivity test.
+
+**Key distinction:** WPA2/WPA3 authentication and disabling WPS help control who can join a wireless network, but they do not, by themselves, eliminate threats from a malicious or compromised device already on the same network.
+
+
 
 **Track:** Red Team  
-**Course topic:** Post-connection attacks, beginning with network identification before mapping / ARP concepts  
+**Course topic:** Network Hacking — Post-Connection Attacks; introductory lesson: Introduction to Post-Connection Attacks  
 **Date:** 2026-11-23  
 **Status:** Step 1 complete — gateway discovery and connectivity verification. No post-connection attack has been performed.
 
