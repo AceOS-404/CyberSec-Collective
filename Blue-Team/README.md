@@ -1,7 +1,8 @@
-# Blue Team — Defensive security labs
+# Blue Team — Defensive Security Study and Labs
 
-**Status: Planned.** A possible collaborator has been invited but has not confirmed joining. Do not attribute work to anyone else until they agree.
+**Team lead: Caitz**  
+**Status:** Collaboration agreed in principle; independent Blue Team contributions can be added when Caitz begins publishing work.
 
-Proposed future exercises: Wireshark traffic review, Linux and Windows logs, Splunk searches, Microsoft Sentinel / KQL, alert triage, defensive controls, and incident reports. Every exercise should have a lab-scoped README, commands, evidence and findings; never claim unperformed tests are complete.
+This folder belongs to the Blue Team contributor. Caitz chooses her own study subjects and maintains her own theory notes, lab reports, detection exercises, analysis, incident-response material and evidence. Red Team course work stays in Red-Team; future joint exercises go in Purple-Team.
 
-Use [the standard report template](../docs/LAB-TEMPLATE.md).
+Follow the [lab report template](../docs/LAB-TEMPLATE.md) where useful. Clearly distinguish planned work from completed practicals, and redact sensitive information before publishing. Only perform exercises on owned, isolated or explicitly authorised systems.
