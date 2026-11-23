@@ -70,6 +70,18 @@ rtt min/avg/max/mdev = 1.576/4.474/6.522/1.799 ms
 
 The accompanying post-connection course PDF goes on to network mapping (Nmap/Zenmap), ARP and man-in-the-middle concepts, Bettercap, HTTPS/HSTS, DNS spoofing, fake access points, MITM detection, and VPNs. These are **upcoming topics**, not completed practicals.
 
+
+## Latest theory checkpoint — wireless access controls (not a practical)
+
+The instructor reviewed disabling **WPS (Wi-Fi Protected Setup)** and configuring a router's **MAC address allowlist**. These are **Wi-Fi access controls**, not evidence that a post-connection attack has been attempted.
+
+- Disabling vulnerable WPS PIN functionality removes one possible route to unauthorized Wi-Fi access; it is not necessary for the upcoming ARP/network-mapping lessons.
+- A MAC allowlist permits only configured device identifiers to associate with the access point, but spoofing and device MAC randomization mean it cannot replace strong WPA2/WPA3 authentication.
+- Neither measure alone protects against attacks by devices that already have access. Post-connection protections require additional measures such as segmentation, HTTPS/TLS, monitoring, and suitable infrastructure controls.
+- **No router settings were changed during this checkpoint.** ISP-managed router administrator access remains unresolved; no credentials or identifying router screenshots are published.
+
+For expanded notes, see [WPS and MAC filtering theory](../08-Wireless-Network-Security/theory/wps-and-mac-filtering.md). Screenshots will only be published after sensitive details have been redacted.
+
 ## Evidence
 
 The source screenshot of the corrected ping and route output was supplied in the course conversation on 2026-11-23. **Screenshot binary has not been committed to this repository**; this report transcribes only directly visible terminal results. A previous screenshot also shows the gateway login page.
