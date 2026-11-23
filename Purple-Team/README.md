@@ -1,13 +1,9 @@
-# Purple Team — Joint offence/defence learning
+# Purple Team — Joint Security Exercises
 
-**Status: Planned; no joint exercise completed yet.**
+**Status:** Planned — no joint practical has been completed.
 
-When both contributors agree, document controlled tests with both perspectives:
+This folder is reserved for collaborative projects between the Red Team contributor and **Caitz (Blue Team)**. Both contributors will select isolated training scenarios, agree on the scope and test conditions, simulate a permitted attack, examine the evidence and detections, apply improvements, and retest. Record both contributions and whether the specific tested weaknesses were mitigated.
 
-1. Define isolated scope and success criteria.
-2. Link the red-team lab and describe the simulated activity.
-3. Link the blue-team detection, logs and response.
-4. Describe what the defence detected, missed or improved.
-5. Track fixes and retesting with evidence.
+Red Team and Blue Team remain independent learning tracks. Nothing in this folder should imply that unperformed joint exercises were completed.
 
-No live-system targeting, personal data or unapproved attribution. Use pull requests for review.
+Use explicitly authorised, contained laboratory systems and reviewed pull requests. Do not publish real credentials or sensitive traffic.
