@@ -7,15 +7,13 @@
 >
 > This repository is for education, not permission to access any system. The contributors do not authorise others to misuse the material, and cannot guarantee the safety or legality of modified uses. Your own actions remain your responsibility.
 
-## Lab progress
+## Practical work
 
-| Track | Lab | Status | Evidence |
-|---|---|---|---|
-| Red | [01 — Kali environment & network fundamentals](Red-Team/01-Kali-and-Network-Fundamentals/README.md) | Set up and verified | Commands and notes |
-| Red | [02 — Offline WPA sample verification](Red-Team/02-WPA-Offline-Verification/README.md) | **Successful** | Aircrack-ng reported `KEY FOUND! [ 12345678 ]` |
-| Red | [03 — Simulated Wi-Fi lab](Red-Team/03-Simulated-WiFi/README.md) | **Partial; still troubleshooting** | AP started, client authentication failed |
-| Blue | [Blue Team](Blue-Team/README.md) | Planned; contributor unconfirmed | — |
-| Purple | [Purple Team](Purple-Team/README.md) | Planned | — |
+The practical reports live in the **Red-Team** folder. Each lab has its own notes, commands, explanations, outcomes and evidence folder. The **Blue-Team** and **Purple-Team** folders are reserved for future defensive and joint exercises.
+
+- [Kali environment and network fundamentals](Red-Team/01-Kali-and-Network-Fundamentals/README.md)
+- [Offline WPA training-capture verification — confirmed result](Red-Team/02-WPA-Offline-Verification/README.md)
+- [Simulated Wi-Fi network — troubleshooting record](Red-Team/03-Simulated-WiFi/README.md)
 
 ## Repository organisation
 
