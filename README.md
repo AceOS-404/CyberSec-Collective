@@ -15,7 +15,7 @@ The practical reports live in the **Red-Team** folder. Each lab has its own note
 - [Offline WPA training-capture verification — confirmed result](Red-Team/02-WPA-Offline-Verification/README.md)
 - [Simulated Wi-Fi network — troubleshooting record](Red-Team/03-Simulated-WiFi/README.md)
 - [Section 8: Wireless network security — theory](Red-Team/08-Wireless-Network-Security/README.md)
-- [Post-connection attacks — gateway identification and ping verification](Red-Team/09-Post-Connection-Attacks/README.md)
+- [Network Hacking — Post-Connection Attacks: Introduction to Post-Connection Attacks](Red-Team/09-Post-Connection-Attacks/README.md)
 
 ## Repository organisation
 
