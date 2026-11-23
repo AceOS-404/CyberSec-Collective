@@ -1,0 +1,23 @@
+# No secrets, credentials, private captures, or VM images
+*.pcap
+*.pcapng
+*.cap
+*.hccapx
+*.hc22000
+*.hcwpax
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.7z
+*.iso
+*.zip
+*.key
+*.pem
+.env
+.env.*
+*password*.txt
+*wordlist*.txt
+__pycache__/
+*.pyc
+.DS_Store
