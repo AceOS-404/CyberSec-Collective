@@ -50,11 +50,10 @@ KEY FOUND! [ 12345678 ]
 The result screenshot supplied by the learner on 2026-11-23 independently shows `3/3 keys tested` and `KEY FOUND! [ 12345678 ]`. It also shows an EAPOL HMAC and derived key fields. **That proves only a successful offline check against this public training capture.** It does not show gaining access to any Wi-Fi network.
 
 ## Screenshot evidence
-After uploading the sanitised screenshot, place it at `screenshots/aircrack-ng-key-found-public-sample.jpg` and embed it here:
 
-```markdown
-![Aircrack-ng verified test candidate](screenshots/aircrack-ng-key-found-public-sample.jpg)
-```
+![Verified Aircrack-ng result using public training capture](screenshots/aircrack-ng-key-found-public-sample.jpg)
+
+The image records `KEY FOUND! [ 12345678 ]` with 3/3 candidates tested. The image will display after the prepared evidence file is uploaded to this folder.
 
 ## Defensive observations
 - Long, unpredictable unique Wi-Fi passphrases resist small wordlist attacks better than common passwords.
