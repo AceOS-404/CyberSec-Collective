@@ -1,0 +1,6 @@
+# Fictional, isolated mac80211_hwsim lab only
+network={
+    ssid="DillenLab"
+    psk="Frosty12"
+    key_mgmt=WPA-PSK
+}
