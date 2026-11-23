@@ -1,0 +1,11 @@
+# Fictional, isolated mac80211_hwsim lab only
+interface=wlan0
+driver=nl80211
+ssid=DillenLab
+hw_mode=g
+channel=6
+wpa=2
+wpa_passphrase=Frosty12
+wpa_key_mgmt=WPA-PSK
+rsn_pairwise=CCMP
+auth_algs=1
