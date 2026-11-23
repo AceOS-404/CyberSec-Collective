@@ -14,6 +14,7 @@ The practical reports live in the **Red-Team** folder. Each lab has its own note
 - [Kali environment and network fundamentals](Red-Team/01-Kali-and-Network-Fundamentals/README.md)
 - [Offline WPA training-capture verification — confirmed result](Red-Team/02-WPA-Offline-Verification/README.md)
 - [Simulated Wi-Fi network — troubleshooting record](Red-Team/03-Simulated-WiFi/README.md)
+- [Section 8: Wireless network security — theory](Red-Team/08-Wireless-Network-Security/README.md)
 
 ## Repository organisation
 
@@ -29,6 +30,9 @@ Red-Team/
     README.md
     configs/
     screenshots/
+  08-Wireless-Network-Security/
+    README.md
+    theory/
 Blue-Team/
   README.md
 Purple-Team/
