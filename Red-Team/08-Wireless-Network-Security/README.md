@@ -9,6 +9,7 @@ This section explains how wireless security weaknesses are assessed by authorise
 
 - [Wireless encryption: WEP, WPA, WPA2 and WPA3](theory/wireless-encryption.md)
 - [WPS weaknesses and wireless hardening](theory/wps-and-wireless-hardening.md)
+- [WPS, MAC filtering and wireless access controls — latest theory lesson](theory/wps-and-mac-filtering.md)
 
 ## Suggested later lab (not yet performed)
 
