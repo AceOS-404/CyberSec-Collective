@@ -1,5 +1,8 @@
 # Red Team — Offensive Security Study and Labs
 
+**Contributor:** AceOS  
+**Role:** Red Team lead — offensive-security research, study notes and authorised lab documentation
+
 This folder contains the Red Team contributor's independently authored course notes, technical explanations, authorised laboratory exercises, troubleshooting and practical evidence. Blue Team work stays under `Blue-Team/`; future joint exercises belong under `Purple-Team/`.
 
 ## Practical work and theory
