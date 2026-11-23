@@ -28,5 +28,15 @@ Examples are in [configs/](configs/). Only fictional SSIDs and passphrases are u
 ## Important distinction
 An access point showing `AP-ENABLED` is not proof that a client has associated or completed a four-way handshake. This exercise must remain **partial** in the public record.
 
+## Selected troubleshooting evidence
+
+![Virtual radio simulator kernel module detected](screenshots/virtual-radio-module-detected.jpg)
+
+![hostapd configuration errors during setup](screenshots/hostapd-config-troubleshooting.jpg)
+
+![Client authentication retries and failures](screenshots/wpa-client-authentication-failure.jpg)
+
+These images will display after their prepared evidence files are uploaded to the screenshot folder. They document progress and failed authentication, not a successful simulated handshake.
+
 ## Next action
 Investigate virtual-radio state and monitor capabilities in a future isolated lab session. Do not claim successful handshake capture here.
